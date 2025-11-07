@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#map-container {
+  width: 80%;
+  height: 500px;
+  margin: 20px 0;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls label {
+  font-size: 16px;
+}
+
+.controls input[type="range"] {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.controls span {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
